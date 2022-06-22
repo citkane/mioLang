@@ -1,0 +1,27 @@
+{
+  "name": "@mio-core/miolang",
+  "version": "0.0.0",
+  "description": "Common transport language for mio microservice architecture",
+  "main": "./src/server.js",
+  "exports": {
+    "import": "./src/browser.js",
+    "require": "./src/server.js"
+  },
+  "scripts": {
+    "start": "node ./src/mioLang.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citkane/mioLang.git"
+  },
+  "author": "Michael Jonker",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/citkane/mioLang/issues"
+  },
+  "homepage": "https://github.com/citkane/mioLang#readme",
+  "dependencies": {
+    "mqtt-pattern": "^1.2.0",
+    "uid": "^2.0.0"
+  }
+}
